@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Codemaru (codeを壊さない翻訳)",
+  "version": "0.2.0",
+  "description": "Chrome内蔵AI(Gemini Nano / オンデバイス・無料)で英→日翻訳。コードは温存し、語順を自然に組み直します。",
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Codemaru で翻訳",
+    "default_icon": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
